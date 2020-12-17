@@ -19,4 +19,3 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 =======
 # helloUserLogs
 Angular 7, Bootstrap 5, JSON
->>>>>>> d651a48ec85bc1c426f0e763876b1873f478f5fd
