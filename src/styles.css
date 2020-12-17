@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+h2{
+    margin-bottom: 1rem;
+}
+h5{
+    color: #999 !important;
+    font-size: 0.8rem;
+    margin: 0;
+}
+p a{
+    color: #fff!important;
+    text-decoration: none;
+}
+.mt-10{
+    margin-top:10rem !important;
+}
+
+.v-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 56px);
+}

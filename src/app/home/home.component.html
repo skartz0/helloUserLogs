@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <h4>User List</h4>
+    <table id="escalation" class="table mt-5">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#id</th>
+          <th scope="col">Full Name</th>
+          <th scope="col">E-mail</th>
+          <th scope="col">City</th>
+          <th scope="col">Street</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let e of li;">
+          <th scope="row">{{e.id}}</th>
+          <td>{{ e.name }}</td>
+          <td>{{ e.email }}</td>
+          <td>{{ e.address.city }}</td>
+          <td>{{ e.address.street }}</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  
+    
+  </div>
+</div>
+
